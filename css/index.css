@@ -36,7 +36,9 @@ a{
 
 #AboutMe{
     margin: auto;
-    width: 10%;
+    width: 100%;
+    background-image: url(../img/picMe.jpg);
+    text-align: center;
 }
 
 #copy{
@@ -47,3 +49,8 @@ a{
 ul, li{
     margin: 0;
 }
+#contactBox{
+    display: flex;
+    justify-content: space-around
+}
+
