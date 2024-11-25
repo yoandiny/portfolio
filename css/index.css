@@ -31,6 +31,7 @@ a{
     width: 100%;
     margin: 0;
     box-sizing: border-box;
+    display: block;
     
 }
 
@@ -52,5 +53,13 @@ ul, li{
 #contactBox{
     display: flex;
     justify-content: space-around
+}
+
+.sous{
+    display: none;
+}
+
+nav, li:hover{
+    background-color: rgb(121, 31, 31);;
 }
 
