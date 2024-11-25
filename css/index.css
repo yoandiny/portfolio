@@ -2,8 +2,10 @@
     background-color: rgb(121, 31, 31);
 }
 
-body{
+html, body{
     background-color: beige;
+    margin: auto;
+    height: 100%;
 }
 
 #title{
@@ -26,11 +28,22 @@ a{
 
 #nav{
     background-color: bisque;
-    margin: auto;
-
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    
 }
 
 #AboutMe{
     margin: auto;
     width: 10%;
+}
+
+#copy{
+    margin: auto;
+    width: 10%;
+}
+
+ul, li{
+    margin: 0;
 }
