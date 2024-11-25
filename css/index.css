@@ -55,11 +55,21 @@ ul, li{
     justify-content: space-around
 }
 
-.sous{
-    display: none;
-}
 
 nav, li:hover{
     background-color: rgb(121, 31, 31);;
+}
+
+nav > ul{
+    display: flex;
+    text-align: center;
+}
+
+#title{
+    width: 200px;
+    height: 100px;
+}
+.menu-deroulant > a:after{
+    display: inline-block;
 }
 
