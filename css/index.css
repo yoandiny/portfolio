@@ -38,6 +38,7 @@ a{
 #AboutMe{
     margin: auto;
     width: 120%;
+    background-color: antiquewhite;
 
 }
 
@@ -78,5 +79,6 @@ nav, li:hover{
     display: flex;
     justify-content: flex-end;
     margin-right: 400px;
+    
 }
 
