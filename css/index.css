@@ -75,3 +75,8 @@ nav, li:hover{
 nav li{
     color: black;
 }
+
+.compInfo{
+    border: 2px solid black;
+    
+}
