@@ -81,15 +81,47 @@ nav li a{
     
 }
 
-.diplomePreview img{
-    border: 2px solid black;
-    width: 200px;
-    height: 250px;
+.diploma-container {
     position: relative;
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  .diploma-name {
+    color: #007bff;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .diploma-preview {
+    position: absolute;
+    top: 120%; 
+    left: 10%;
+    transform: translateX(-50%);
+    width: 300px;
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     display: none;
+    z-index: 10;
+  }
+  
+  .diploma-preview img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .diploma-container:hover .diploma-preview {
+    display: block;
+  }
+
+#education{
+    display: flex;
+    flex-direction: column;
 }
 
-.diplomeName a:hover .diplomePreview img{
-    display: block;
-    position: absolute;
+#container{
+    display: flex;
+    justify-content: space-around;
 }
