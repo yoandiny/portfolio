@@ -69,13 +69,7 @@ nav, li:hover{
     margin: auto;
     width: 100%;
 }
-.bloc1 h2 a{
-    color: black;
-}
 
-.bloc2 h2 a{
-    color: black;
-}
 
 .bloc2{
     border: 2px solid black;
@@ -93,4 +87,15 @@ nav, li:hover{
 .bloc{
     display: flex;
     justify-content: space-between;
+    background-color: antiquewhite;
 }
+
+.project_item, .experience_item{
+    background-color: white;
+    border: 1px solid maroon;
+    margin: 15%;
+    border-radius: 5px;
+    box-shadow: 10px black;
+    padding: 0;
+}
+
