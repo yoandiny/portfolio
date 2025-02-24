@@ -1,0 +1,142 @@
+#contact{
+    background-color: rgb(121, 31, 31);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: beige;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#title{
+    text-align: center;
+}
+
+/* Navbar */
+
+#nav ul, #nav ul li{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+li{
+    padding: 1%;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+#nav{
+    background-color: bisque;
+    width: 100%;
+    height: 70px;
+    
+}
+
+#nav li a:hover{
+    color: white;
+    
+}
+
+#nav li a{
+    color: black;
+}
+
+/* Navbar */
+
+/* About me */
+
+#AboutMe{
+    margin: auto;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between ;
+}
+
+#about-title{
+    font-size: 3em;
+    margin-block: 0.75em;
+    height: 15px;
+
+}
+
+#AboutMe div{
+    margin-inline: 2em;
+}
+
+#me{
+    width: 500px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
+
+.buttonContainer{
+    margin-top: 5em;
+}
+
+#hireButton{
+    border: none;
+    margin-inline: 1em;
+    font-size: 1.2em;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    box-shadow: black 0px 2px 3px;
+}
+
+#projectButton{
+    border: none;
+    margin-inline: 1em;
+    font-size: 1.2em;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    box-shadow: black 0px 2px 3px;
+}
+
+
+/* About me */
+
+
+
+#copy{
+    margin: auto;
+    width: 10%;
+}
+
+ul, li{
+    margin: 0;
+}
+#contactBox{
+    display: flex;
+    justify-content: space-around
+}
+
+
+
+
+
+#education{
+    display: flex;
+    flex-direction: column;
+}
+
+#container{
+    display: flex;
+    justify-content: space-around;
+}
+
+#github{
+    width: 30px;
+    height: 30px;
+}
+
+  

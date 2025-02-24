@@ -3,84 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <script src="assets/js/index.js" defer></script>
+    <script src="assets/js/nav.js" defer></script>
     <title>Accueil</title>
 
-    <nav id="nav">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li class="AboutMe"><a href="#AboutMe">About Me</a></li>
-            <li class="Education"><a href="#education">Education</a>
-            </li>
-            <li><a href="#talent">Skills</a></li>
-            <li><a href="achieve.html">Achievements</a></li>
-            <li><a href="#contact">Conctact</a></li>
-           
-        </ul>
-    </nav>
+    <div id="nav"></div>
 </head>
 <body>
     
 
     <section id="AboutMe">
+        <div  class="leftSide">
+            <h1 id="about-title">
+                Hi!
+            </h1>
+            <h1 id="about-title">
+                I'm Diny Fondàna Yoan
+            </h1>
+            <div class="buttonContainer">
+                <button id="hireButton">Hire Me</button>
+                <button id="projectButton">Projects</button>
 
-    <span>
-        <h1 id="welMessageUp">Hello I'm Yoan</h1>
-        <p>I'm actually an L1 student at HEI Madagascar,
-             where i plan to acquire programming skills like Web development in front end and back end. I except myself to get my Licence at HEI
-            in programming and then get another licence for few more domains but in Mauritius.</p>
-            <br>
-            <p>
-                There in Mauritius i plan to study Internet of Things, Blockchain and potentialy IA too. 
-                Because, I think that it's not enough for me to learn only about one domain and can make mmyself being versatile,
-                 especially for my future project that will require a lot of knowledge.
-            </p>
-            <br>
-        <p>So at the same time, I learn by myself on Specialized online course websites
-             like <a href="https://openclassroom.com">Openclassroom</a> or <a href="https://cursa.app">Cursa</a> That deliver
-              Completion Certificate for a lot of the domain like management or accounting on Cursa and computer skills renforcement
-            on Openclassroom</p>
-
-    </span>
- 
-
-        <span id="picMe">
-            <img id="picofMe" src="img/picMe.jpg" alt="">
-        </span>
-
+            </div>
+        </div>
+        <div class="rightSide">
+            <img id="me" class="animate__animated animate__fadeIn" src="assets/img/picMe.jpg" alt="">
+        </div>
         
     </section>
 
-    <section id="education">
-        <h3 id="title">Education</h3>
-        <div class="diploma-container">
-            <span class="diploma-name">English Certificate C1 level</span>
-            <p>
-                Certificate of English language delivered by <a href="testizer.com">Testizer</a>
-              </p>
-            <div class="diploma-preview">
-              <img src="img/Cert-Dip/testizer.jpg" alt="Diplôme d'informatique">
-            </div>
-          </div>
-
-          <div class="diploma-container">
-            <span class="diploma-name">S serie Bacc Degree</span>
-            <p>
-                Baccalaureat S serie Diploma
-            </p>
-        </div>
-
-        <div class="diploma-container">
-            <span class="diploma-name">Certificat de Gestion de projet et de Trésorerie</span>
-            <p>
-            Certificat de remerciement délivré par le Lycée Privé La Belle certManasoa
-                pour l'apport d'aide en tant que Trésorier et
-            </p>
-            <div class="diploma-preview">
-              <img src="img/Cert-Dip/certManasoa.jpg" alt="Diplôme d'informatique">
-            </div>
-          </div>
-    </section>
+    
 
     <section id="talent">
         <h3 id="title">
