@@ -1,0 +1,21 @@
+#contact{
+    background-color: var(--section);
+}
+
+#copy{
+    margin: auto;
+    width: 10%;
+}
+
+ul, li{
+    margin: 0;
+}
+#contactBox{
+    display: flex;
+    justify-content: space-around
+}
+
+#footerIcon{
+    font-size: 2em;
+    color: black;
+}

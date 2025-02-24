@@ -1,73 +1,26 @@
-#nav li a{
-    color: black;
+:root{
+    --primary-color: #1E1E2E;
+    --interacted: #EBCB8B;
+    --text-color: #ECEFF4;
+    --title: #81A1C1;
+    --section: #3B4252;
 }
 
-#contact{
-    background-color: rgb(121, 31, 31);
+*{
+    margin: 0;
+    padding: 0;
 }
 
-html, body{
-    background-color: beige;
-    margin: auto;
-    height: 100%;
+ body{
+    background-color: var(--primary-color);
 }
 
 #title{
     text-align: center;
 }
 
-#nav ul{
-    display: flex;
-    justify-content: flex-end;
-}
-
-li{
-    padding: 1%;
-    list-style: none;
-}
-
-a{
-    text-decoration: none;
-}
-
-#nav{
-    background-color: bisque;
-    width: 100%;
-    margin: 0;
-    box-sizing: border-box;
-    
-}
-
-#AboutMe{
-    margin: auto;
-    background-color: antiquewhite;
-    display: flex;
-    justify-content: start ;
-
-}
-
-#copy{
-    margin: auto;
-    width: 10%;
-}
-
-ul, li{
-    margin: 0;
-}
-#contactBox{
-    display: flex;
-    justify-content: space-around
-}
 
 
-#nav li a:hover{
-    color: white;
-    
-}
-
-#nav li:hover{
-    background-color: rgb(121, 31, 31);
-}
 
 .bloc{
     display: flex;
