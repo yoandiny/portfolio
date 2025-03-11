@@ -6,22 +6,22 @@
     <link rel="stylesheet" href="assets/css/achieve.css">
     <link rel="stylesheet" href="assets/css/nav.css">
     <link rel="stylesheet" href="assets/css/footer.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Achievements</title>
     <script src="assets/js/nav.js" defer></script>  
     <script src="assets/js/footer.js" defer></script>
 </head>
 <body>
-   <div id="nav"></div>
-    <h3 id="title">
-        Achievements
-    </h3>
-    <div class="bloc">
-        <span class="bloc1">
+   <div  id="nav"></div>
+    <div  class="bloc">
+        <span data-aos="fade-left" class="bloc1">
             <h2>
                 <a href="digit.html">Digital achievements</a>
             </h2>
         </span>
-        <span class="bloc2">
+        <span data-aos="fade-right" class="bloc2">
             <h2>
                 <a href="manage.html">Management achievements</a>
             </h2>
@@ -32,10 +32,15 @@
 
 
 
-    <footer id="contact">
+    <footer data-aos="fade-down" id="contact">
     
         
     </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   
 </body>
 </html>

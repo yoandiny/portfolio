@@ -3,67 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/manage.css">
+    <link rel="stylesheet" href="assets/css/manage.css">
     <link rel="stylesheet" href="assets/css/nav.css">
     <link rel="stylesheet" href="assets/css/footer.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="assets/js/nav.js" defer></script>
     <script src="assets/js/footer.js"></script>
     <title>Management Achievement</title>
 </head>
 <body>
-        <div class="nav"></div>
+        <div id="nav"></div>
 
-        <h3 id="title">
-            Management Achiements
-        </h3>
-        <div class="bloc">
-            <span class="bloc1">
-                <h2>
-                    Projects
-                </h2>
-                <div class="project_item">
+        <div class="container">
+            <section class="project1">
+                <div class="projectItem">
                     <h3>
                         "Fusion Artistique" Event in Antalaha
                     </h3>
                     <p>
                         April 2024 - June 2024
                     </p>
-                    <a href="https://www.facebook.com/share/p/1NdZvnqGif/" target="_blank">See the project</a>
+                    <a class="checkButton" href="https://www.facebook.com/share/p/1NdZvnqGif/" target="_blank">See the project</a>
                 </div>
 
-            </span>
-            <span class="bloc2">
-                <h2>
-                    Experiences
-                </h2>
-
-                <div class="experience_item">
-                    <h3>
-                        Treasurer and Project Manager
-                    </h3>
-                    <p>
-                        January 2024 - July 2024 : Being Treasurer and Project Manager of Manasoa Highschool's Student Organisation
-                    </p>
-                </div>
-
-                <div class="experience_item">
-                    <h3>
-                        Internship at Bazar'Ntsika Antalaha
-                    </h3>
-                    <p>
-                        June 2023: Internship as a saler at Bazar'Ntsika Supermarket
-                    </p>
-                </div>
-            </span>
+            </section>
+           
     
         </div>
 
 
 
 
-        <footer id="contact">
+        <footer data-aos="fade-down" id="contact">
            
         </footer>
+
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+          </script>
+    
     
 </body>
 </html>

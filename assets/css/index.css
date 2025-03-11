@@ -18,6 +18,7 @@ body{
 }
 
 #title{
+    font-size: 2em;
     text-align: center;
     color: var(--title);
 }
@@ -60,6 +61,7 @@ body{
     background-color: var(--interacted);
     border: none;
     margin-inline: 1em;
+    margin-right: 2em;
     font-size: 1.2em;
     border-radius: 10px;
     width: 150px;
@@ -79,6 +81,7 @@ body{
     background-color: var(--interacted);
     border: none;
     margin-inline: 1em;
+    margin-left: 2em;
     font-size: 1.2em;
     border-radius: 10px;
     width: 150px;
@@ -102,7 +105,12 @@ body{
 /* About me */
 
 
+/* SKills */
 
+#talent{
+    background-color: var(--section);
+    border-bottom: black 1px solid;
+}
 
 progress{
     width: 100px;
@@ -110,11 +118,10 @@ progress{
 
 }
 
+/* SKills */
 
-
-#education{
-    display: flex;
-    flex-direction: column;
+.title{
+    margin-bottom: 1.2em;
 }
 
 #container{
@@ -126,5 +133,24 @@ progress{
     width: 30px;
     height: 30px;
 }
+
+.skillContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    
+}
+
+.skillContainer img{
+    width: 50px;
+    aspect-ratio: 1/1;
+    margin: 1em;
+}
+
+.skillContainer h4{
+    color: #1E1E2E;
+}
+
 
   

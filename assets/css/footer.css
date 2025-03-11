@@ -19,3 +19,17 @@ ul, li{
     font-size: 2em;
     color: black;
 }
+
+#phone{
+    align-items: center;
+}
+
+#phone *, #socialMedia *{
+    margin-block: 0.25em;
+}
+
+#title{
+    text-align: center;
+}
+
+
