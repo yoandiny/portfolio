@@ -4,8 +4,12 @@
 
 #copy{
     margin: auto;
-    width: 10%;
-    transform:none;
+    width: 150px;
+
+}
+
+#copy p{
+    white-space: nowrap;
 }
 
 ul, li{
