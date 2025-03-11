@@ -5,6 +5,7 @@
 #copy{
     margin: auto;
     width: 10%;
+    transform:none;
 }
 
 ul, li{
